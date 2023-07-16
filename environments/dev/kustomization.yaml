@@ -2,3 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../k8s/
+images:
+- digest: sha256:09b9bf8d0193d1a9489344259ee7d8e1975d643535eb9eead053df678eb08515
+  name: quay.io/arief_amarullah/cicd_demo
+  newName: quay.io/arief_amarullah/cicd_demo
